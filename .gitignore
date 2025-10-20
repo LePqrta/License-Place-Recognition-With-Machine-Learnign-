@@ -1,0 +1,54 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+
+# Virtual environment folders and files
+venv/
+env/
+Lib/
+Scripts/
+share/
+pyvenv.cfg
+Include/
+
+# Environment variables
+.env
+
+# VS Code settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python wheel and distribution files
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Log files
+*.log
+
+# Cache directory tag
+CACHEDIR.TAG
+
+# Ignore pip cache
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore test output
+htmlcov/
+.coverage
+.tox/
+
+# Image files (if you don't want to track them)
+# *.jpg
+# *.png
+# *.jpeg
