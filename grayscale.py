@@ -2,7 +2,7 @@ from skimage.io import imread
 from skimage.filters import threshold_otsu
 import matplotlib.pyplot as plt
 
-car_image = imread("car6.jpg", as_gray=True)
+car_image = imread("car3.jpg", as_gray=True)
 print(car_image.shape)
 
 
