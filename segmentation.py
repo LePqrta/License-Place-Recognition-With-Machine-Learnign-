@@ -133,8 +133,7 @@ def segmentation(image_path):
             ax1.add_patch(rect_border)
             print(f"  ✗ Rejected")
     
-    plt.tight_layout()
-    plt.show()
+
     
     # DEBUG: Show extracted characters
     if len(characters) > 0:
